@@ -3,7 +3,7 @@ import pandas as pd
 df = pd.read_csv( 'https://sololearn.com/uploads/files/titanic.csv' )
 
 # The values attribute of a Pandas Series give the data as a numpy array.
-print( df['Fare'].values )
+print( df[ 'Fare' ].values )
 
 # The values attribute of a Pandas DataFrame give the data as a 2d numpy array.
 print( df.values )
